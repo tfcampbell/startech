@@ -1,2 +1,0 @@
-# startech
-learning OOP
