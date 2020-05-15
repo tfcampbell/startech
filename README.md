@@ -1,2 +1,2 @@
 # startech
-Python using OOP
+learning OOP
