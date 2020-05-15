@@ -1,2 +1,0 @@
-# startech
-Python using OOP
