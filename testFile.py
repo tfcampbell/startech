@@ -1,5 +1,6 @@
-from classCharacter import Character
-from classCharacter import Enemy
+from Character import Character
+from Character import Enemy
+
 
 
 dave = Character("Dave", "A smelly zombie")
