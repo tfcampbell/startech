@@ -1,6 +1,9 @@
 import pygame
 from pygame.locals import *
 
+#set up font for labels
+fonts = pygame.font.get_fonts()
+
 #set up colour
 RED = (255, 0, 0)
 GRAY = (150, 150, 150)

@@ -24,7 +24,7 @@ rect = img.get_rect()
 pygame.draw.rect(img, BLUE, rect, 1)
 
 font1 = pygame.font.SysFont('chalkduster.ttf', 72)
-img1 = font1.render('chalkduster.ttf', True, BLUE)
+img1 = font1.render('chalkduster.ttf@@', True, BLUE)
 
 font2 = pygame.font.SysFont('didot.ttc', 72)
 img2 = font2.render('didot.ttc', True, GREEN)
@@ -33,6 +33,7 @@ fonts = pygame.font.get_fonts()
 print(len(fonts))
 for i in range(7):
     print(fonts[i])
+   
 
 running = True
 background = GRAY
@@ -40,7 +41,6 @@ while running:
     for event in pygame.event.get():
         if event.type == QUIT:
             running = False
-
     screen.fill(background)
     screen.blit(img, (20, 20))
     screen.blit(img1, (20, 50))
