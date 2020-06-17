@@ -30,7 +30,7 @@ rect = img.get_rect()
 #place in the Kitchen
 rect.center=(w//1.4, h//2.9)
 
-#event loop
+#event loop that creates an interface
 while running:
     for event in pygame.event.get():
         if event.type == QUIT:
